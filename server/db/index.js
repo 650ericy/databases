@@ -14,3 +14,5 @@ const connection = mysql.createConnection({
   user: 'root',
   database: 'chat'
 });
+
+module.exports.connection = connection;
